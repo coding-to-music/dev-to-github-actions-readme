@@ -1,0 +1,13 @@
+{
+  "name": "dev-to-github-actions-readme",
+  "version": "1.0.0",
+  "description": "Collect your latest articles from sources such as [dev.to](https://dev.to), and then update the `README.md`.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m 'Build' && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
