@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Update articles
-        uses: coding-to-music/dev-to-github-actions-readme@v1.1.0
+        uses: coding-to-music/dev-to-github-actions-readme@v1.0.0
         with:
           username: codingtomusic
           limit: 5
