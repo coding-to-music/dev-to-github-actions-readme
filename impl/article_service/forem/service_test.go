@@ -3,9 +3,10 @@ package forem
 import (
 	_ "embed"
 	"encoding/json"
-	"github.com/huantt/article-listing/pkg/forem"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/pkg/forem"
+	"github.com/stretchr/testify/assert"
 )
 
 //go:embed testdata/articles.json

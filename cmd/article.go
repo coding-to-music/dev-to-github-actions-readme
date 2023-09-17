@@ -2,12 +2,13 @@ package cmd
 
 import (
 	"context"
-	"github.com/huantt/article-listing/handler/collector"
-	"github.com/huantt/article-listing/impl/article_service/forem"
-	foremsrv "github.com/huantt/article-listing/pkg/forem"
-	"github.com/spf13/cobra"
 	"log/slog"
 	"os"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/handler/collector"
+	"github.com/coding-to-music/dev-to-github-actions-readme/impl/article_service/forem"
+	foremsrv "github.com/coding-to-music/dev-to-github-actions-readme/pkg/forem"
+	"github.com/spf13/cobra"
 )
 
 func UpdateArticles(use string) *cobra.Command {

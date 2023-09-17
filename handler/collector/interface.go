@@ -2,7 +2,8 @@ package collector
 
 import (
 	"context"
-	"github.com/huantt/article-listing/model"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/model"
 )
 
 type ArticleService interface {

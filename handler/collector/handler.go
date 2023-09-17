@@ -5,11 +5,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/huantt/article-listing/model"
 	"html/template"
 	"log/slog"
 	"os"
 	"time"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/model"
 )
 
 type Handler struct {

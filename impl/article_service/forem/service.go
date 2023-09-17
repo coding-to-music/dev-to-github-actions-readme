@@ -2,8 +2,9 @@ package forem
 
 import (
 	"context"
-	"github.com/huantt/article-listing/model"
-	"github.com/huantt/article-listing/pkg/forem"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/model"
+	"github.com/coding-to-music/dev-to-github-actions-readme/pkg/forem"
 )
 
 type Service struct {

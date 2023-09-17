@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/huantt/article-listing/cmd"
-	"github.com/spf13/cobra"
 	"log/slog"
 	"os"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/cmd"
+	"github.com/spf13/cobra"
 )
 
 func main() {

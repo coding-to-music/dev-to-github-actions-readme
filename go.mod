@@ -1,4 +1,4 @@
-module github.com/huantt/article-listing
+module github.com/coding-to-music/dev-to-github-actions-readme
 
 go 1.21
 

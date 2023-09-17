@@ -1,4 +1,5 @@
 ## About
+
 Collect your latest articles from sources such as [dev.to](https://dev.to), and then update the `README.md`.
 
 ## Use GitHub Action to update your README
@@ -10,10 +11,13 @@ Collect your latest articles from sources such as [dev.to](https://dev.to), and 
 **Step 3:** Embed one of the following entities within your `README.md.template`:
 
 - **Article listing:**
+
 ```shell
 {{ template "article-list" .Articles }}
 ```
+
 - **Article table:**
+
 ```shell
 {{ template "article-table" .Articles }}
 ```
@@ -25,45 +29,47 @@ If you are familiar with Go templates, you have access to the `root` variable, w
 - `Author`: Author of articles
 
 **Step 4**: Register Github Action
+
 - Create a file `.github/workflows/update-articles.yml` in your repository.
+
 ```yml
 name: "Cronjob"
 on:
 schedule:
-- cron: '15 0 * * *'
+  - cron: "15 0 * * *"
 
 jobs:
-    update-articles:
-        permissions: write-all
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v3
-            - name: Generate README
-              uses: huantt/article-listing@v1.1.0
-              with:
-                username: YOUR_USERNAME_ON_DEV_TO                
-                template-file: 'README.md.template'
-                out-file: 'README.md'
-                limit: 5
-            - name: Commit
-              run: |
-                if git diff --exit-code; then
-                    echo "No changes to commit."
-                    exit 0
-                else
-                    git config user.name github-actions
-                    git config user.email github-actions@github.com
-                    git add .
-                    git commit -m "update"
-                    git push origin main
-                fi
+  update-articles:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate README
+        uses: coding-to-music/dev-to-github-actions-readme@v1.1.0
+        with:
+          username: YOUR_USERNAME_ON_DEV_TO
+          template-file: "README.md.template"
+          out-file: "README.md"
+          limit: 5
+      - name: Commit
+        run: |
+          if git diff --exit-code; then
+              echo "No changes to commit."
+              exit 0
+          else
+              git config user.name github-actions
+              git config user.email github-actions@github.com
+              git add .
+              git commit -m "update"
+              git push origin main
+          fi
 ```
 
 **Step 5**: Commit your change, then Github actions will run as your specified cron to update Articles into your README.md file
 
 ## Below is my recent articles Tom Connors collected from dev.to
-### Table
 
+### Table
 
 <table>
         <tr>
@@ -92,11 +98,10 @@ jobs:
         </tr>
 </table>
 
-
 ### List
 
 - [MIT&#39;s Premier Programming Competition, Battlecode, open to all, registration is...](https://dev.to/codingtomusic/mits-premier-programming-competition-battlecode-open-to-all-registration-is-now-open-4f0) - 05/12/2022
 - [Playing around with Open.ai&#39;s ChatGPT-3 to ask how to upload...](https://dev.to/codingtomusic/playing-around-with-openais-chatgpt-3-to-ask-how-to-upload-multiple-images-to-aws-s3-with-mongodb-and-firebase-auth-48h0) - 05/12/2022
 - [BattleCode 2021 - Overview and instructions - create java bots...](https://dev.to/codingtomusic/battlecode-2021-overview-and-instructions-create-java-bots-in-a-virtual-world-4ibn) - 15/01/2021
 
-*Updated at: 2023-09-17T00:25:19Z*
+_Updated at: 2023-09-17T00:25:19Z_

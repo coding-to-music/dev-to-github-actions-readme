@@ -3,10 +3,11 @@ package collector
 import (
 	_ "embed"
 	"encoding/json"
-	"github.com/huantt/article-listing/model"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
+
+	"github.com/coding-to-music/dev-to-github-actions-readme/model"
+	"github.com/stretchr/testify/assert"
 )
 
 //go:embed testdata/articles.json
