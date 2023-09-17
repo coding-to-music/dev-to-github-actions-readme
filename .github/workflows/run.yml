@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  update-weather:
+  update-dev-to-article-list:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
