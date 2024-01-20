@@ -68,7 +68,7 @@ jobs:
 <table>
         <tr>
             <td width="300px">
-                <a href="https://dev.to/codingtomusic/mits-premier-programming-competition-battlecode-open-to-all-registration-is-now-open-4f0"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--jIhcvW8X--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6f85sgi5wpwc66ftrtur.png" alt="thumbnail"></a>
+                <a href="https://dev.to/codingtomusic/mits-premier-programming-competition-battlecode-open-to-all-registration-is-now-open-4f0"><img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6f85sgi5wpwc66ftrtur.png" alt="thumbnail"></a>
             </td>
             <td>
                 <a href="https://dev.to/codingtomusic/mits-premier-programming-competition-battlecode-open-to-all-registration-is-now-open-4f0">MIT&#39;s Premier Programming Competition, Battlecode, open to all, registration is...</a>
@@ -78,7 +78,7 @@ jobs:
         </tr>
         <tr>
             <td width="300px">
-                <a href="https://dev.to/codingtomusic/playing-around-with-openais-chatgpt-3-to-ask-how-to-upload-multiple-images-to-aws-s3-with-mongodb-and-firebase-auth-48h0"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QCCZVAaY--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u0bmon6vlubukgk59hkb.png" alt="thumbnail"></a>
+                <a href="https://dev.to/codingtomusic/playing-around-with-openais-chatgpt-3-to-ask-how-to-upload-multiple-images-to-aws-s3-with-mongodb-and-firebase-auth-48h0"><img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu0bmon6vlubukgk59hkb.png" alt="thumbnail"></a>
             </td>
             <td>
                 <a href="https://dev.to/codingtomusic/playing-around-with-openais-chatgpt-3-to-ask-how-to-upload-multiple-images-to-aws-s3-with-mongodb-and-firebase-auth-48h0">Playing around with Open.ai&#39;s ChatGPT-3 to ask how to upload...</a>
@@ -88,7 +88,7 @@ jobs:
         </tr>
         <tr>
             <td width="300px">
-                <a href="https://dev.to/codingtomusic/battlecode-2021-overview-and-instructions-create-java-bots-in-a-virtual-world-4ibn"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--C9ai3ZZC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/ee9guqjz5g4qaoqcg882.png" alt="thumbnail"></a>
+                <a href="https://dev.to/codingtomusic/battlecode-2021-overview-and-instructions-create-java-bots-in-a-virtual-world-4ibn"><img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fee9guqjz5g4qaoqcg882.png" alt="thumbnail"></a>
             </td>
             <td>
                 <a href="https://dev.to/codingtomusic/battlecode-2021-overview-and-instructions-create-java-bots-in-a-virtual-world-4ibn">BattleCode 2021 - Overview and instructions - create java bots...</a>
@@ -105,4 +105,4 @@ jobs:
 - [Playing around with Open.ai&#39;s ChatGPT-3 to ask how to upload...](https://dev.to/codingtomusic/playing-around-with-openais-chatgpt-3-to-ask-how-to-upload-multiple-images-to-aws-s3-with-mongodb-and-firebase-auth-48h0) - 05/12/2022
 - [BattleCode 2021 - Overview and instructions - create java bots...](https://dev.to/codingtomusic/battlecode-2021-overview-and-instructions-create-java-bots-in-a-virtual-world-4ibn) - 15/01/2021
 
-*Updated at: 2024-01-19T18:20:54Z*
+*Updated at: 2024-01-20T00:25:33Z*
